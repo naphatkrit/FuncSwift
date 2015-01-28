@@ -10,7 +10,7 @@ import UIKit
 import XCTest
 import FuncSwift
 
-class OperatorsSwiftTests: XCTestCase {
+class OperatorsTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

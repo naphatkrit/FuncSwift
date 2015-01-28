@@ -12,6 +12,8 @@
 		F4D62FB91A79646900F06E13 /* FuncSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D62FB81A79646900F06E13 /* FuncSwiftTests.swift */; };
 		F4D62FC31A7964AF00F06E13 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D62FC21A7964AF00F06E13 /* Operators.swift */; };
 		F4D62FC51A79666D00F06E13 /* OperatorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D62FC41A79666D00F06E13 /* OperatorsTests.swift */; };
+		F4D62FC71A79689900F06E13 /* Memoization.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D62FC61A79689900F06E13 /* Memoization.swift */; };
+		F4D62FC91A796A4000F06E13 /* MemoizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D62FC81A796A4000F06E13 /* MemoizationTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +35,8 @@
 		F4D62FB81A79646900F06E13 /* FuncSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuncSwiftTests.swift; sourceTree = "<group>"; };
 		F4D62FC21A7964AF00F06E13 /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
 		F4D62FC41A79666D00F06E13 /* OperatorsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperatorsTests.swift; sourceTree = "<group>"; };
+		F4D62FC61A79689900F06E13 /* Memoization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Memoization.swift; sourceTree = "<group>"; };
+		F4D62FC81A796A4000F06E13 /* MemoizationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoizationTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,7 @@
 				F4D62FAB1A79646900F06E13 /* FuncSwift.h */,
 				F4D62FA91A79646900F06E13 /* Supporting Files */,
 				F4D62FC21A7964AF00F06E13 /* Operators.swift */,
+				F4D62FC61A79689900F06E13 /* Memoization.swift */,
 			);
 			path = FuncSwift;
 			sourceTree = "<group>";
@@ -96,6 +101,7 @@
 				F4D62FB81A79646900F06E13 /* FuncSwiftTests.swift */,
 				F4D62FC41A79666D00F06E13 /* OperatorsTests.swift */,
 				F4D62FB61A79646900F06E13 /* Supporting Files */,
+				F4D62FC81A796A4000F06E13 /* MemoizationTests.swift */,
 			);
 			path = FuncSwiftTests;
 			sourceTree = "<group>";
@@ -215,6 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4D62FC71A79689900F06E13 /* Memoization.swift in Sources */,
 				F4D62FC31A7964AF00F06E13 /* Operators.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -224,6 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4D62FB91A79646900F06E13 /* FuncSwiftTests.swift in Sources */,
+				F4D62FC91A796A4000F06E13 /* MemoizationTests.swift in Sources */,
 				F4D62FC51A79666D00F06E13 /* OperatorsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
