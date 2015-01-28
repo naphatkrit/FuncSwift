@@ -10,6 +10,8 @@
 		F4D62FAC1A79646900F06E13 /* FuncSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = F4D62FAB1A79646900F06E13 /* FuncSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4D62FB21A79646900F06E13 /* FuncSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4D62FA61A79646900F06E13 /* FuncSwift.framework */; };
 		F4D62FB91A79646900F06E13 /* FuncSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D62FB81A79646900F06E13 /* FuncSwiftTests.swift */; };
+		F4D62FC31A7964AF00F06E13 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D62FC21A7964AF00F06E13 /* Operators.swift */; };
+		F4D62FC51A79666D00F06E13 /* OperatorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D62FC41A79666D00F06E13 /* OperatorsTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		F4D62FB11A79646900F06E13 /* FuncSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FuncSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4D62FB71A79646900F06E13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4D62FB81A79646900F06E13 /* FuncSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuncSwiftTests.swift; sourceTree = "<group>"; };
+		F4D62FC21A7964AF00F06E13 /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
+		F4D62FC41A79666D00F06E13 /* OperatorsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperatorsTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,7 @@
 			children = (
 				F4D62FAB1A79646900F06E13 /* FuncSwift.h */,
 				F4D62FA91A79646900F06E13 /* Supporting Files */,
+				F4D62FC21A7964AF00F06E13 /* Operators.swift */,
 			);
 			path = FuncSwift;
 			sourceTree = "<group>";
@@ -89,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				F4D62FB81A79646900F06E13 /* FuncSwiftTests.swift */,
+				F4D62FC41A79666D00F06E13 /* OperatorsTests.swift */,
 				F4D62FB61A79646900F06E13 /* Supporting Files */,
 			);
 			path = FuncSwiftTests;
@@ -209,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4D62FC31A7964AF00F06E13 /* Operators.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4D62FB91A79646900F06E13 /* FuncSwiftTests.swift in Sources */,
+				F4D62FC51A79666D00F06E13 /* OperatorsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +327,7 @@
 		F4D62FBD1A79646900F06E13 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -328,12 +337,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		F4D62FBE1A79646900F06E13 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
